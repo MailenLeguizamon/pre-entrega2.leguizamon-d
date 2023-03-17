@@ -1,0 +1,179 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo aplicado en el encabezado */
+h1 {
+    color:   rgb(65, 70, 83);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    margin: 50px;
+}
+
+/* Estilo aplicado a la barra de navegacion */
+.nav {
+    display: flex;
+    background-color: rgb(155, 224, 224);
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    flex-direction: row;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px; 
+ }
+a { 
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    color:  rgb(89, 129, 238);
+}  
+
+/* Estilo aplicado en el logo de la página web */
+.logo {
+    background-color: rgb(155, 224, 224);
+}
+.logo-mc {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 3px solid #7bbbc0;
+}
+
+/* Estilo aplicado en el inicio, imágen de presentacion */
+.presentacion{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 650px;
+        width: 500px;
+}
+   
+/* Estilo aplicado al template de contactanos.html */
+.contactanos {
+    color:  rgb(65, 70, 83);;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    background-color:rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al formulario de contactanos.html */
+.mb-3 {
+    color:    rgb(65, 70, 83);
+    text-align: left;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;	
+}
+@media (prefers-reduced-motion: reduce) {
+    .mb-3 .btn-group {
+      transition: none;
+      font-size: 0.875rem;
+    }
+    }
+
+/* Estilo aplicado al template de contactanos.html */
+.ubicacion {
+    color:    rgb(65, 70, 83);
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    background-color:rgb(155, 224, 224);	
+}
+
+/* Estilo aplicado a la imagen de la ubicacion */
+.maps-resposive {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+   position: absolute;
+   padding-bottom: 40%;
+} 
+
+@media(min-width: 576px){
+    .maps-resposive  {
+        text-align: left 
+        }
+    }
+
+/* Estilo aplicado al template productos.html */
+.productos {
+    color:   rgb(65, 70, 83);;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    background-color:rgb(155, 224, 224);
+}
+
+/* Boostrap aplicado al template productos.html */
+.carousel-inner {
+
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.galeria {
+    width: 800px;
+    height: 800px;
+}
+
+
+/* Estilo aplicado al template como-comprar.html */
+.comprar{
+    color:   rgb(65, 70, 83);;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    background-color:rgb(155, 224, 224);
+  
+} 
+/* Estilo aplicado en la imagen, template como-comprar.html  */
+.comocomprar {
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 100px;    
+}
+
+
+/* Estilo aplicado al template quienes-somos.html  */
+.quienes-somos {
+    color:  rgb(65, 70, 83);
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    background-color:rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al font de quienes-somos.html  */
+.nosotros {
+    color:   rgb(65, 70, 83);
+    text-align:start;
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    margin: 50px;
+}
+
+/* Estilo aplicado al pie de página de html */
+
